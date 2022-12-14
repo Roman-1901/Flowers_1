@@ -8,7 +8,7 @@ public class MainFlowers {
         Bouquet[] bouquet = new Bouquet[5];
         bouquet[0] = new Bouquet(roze, 5);
         bouquet[1] = new Bouquet(pion, 3);
-        bouquet[2] = new Bouquet(chrysanthemum, 3);
+        bouquet[2] = new Bouquet(chrysanthemum, 4);
 
         Bouquet.allInformationByBouquet(bouquet);
 

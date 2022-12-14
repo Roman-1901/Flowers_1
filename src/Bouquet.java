@@ -54,6 +54,6 @@ public class Bouquet {
 
     @Override
     public String toString() {
-        return flowerAll.getFlowerName() + ", страна " + flowerAll.getCountry() + ", цена за 1 шт. " + String.format("%.2f", flowerAll.getCost()) + ", срок стояния " + flowerAll.getLifeSpan();
+        return flowerAll.getFlowerName() + ", страна " + flowerAll.getCountry() + ", цена за 1 шт. " + String.format("%.2f", flowerAll.getCost()) + ", срок стояния " + flowerAll.getLifeSpan() + ", количество штук: " + count;
     }
 }
