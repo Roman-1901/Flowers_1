@@ -10,7 +10,7 @@ public class MainFlowers {
         bouquet[1] = new Bouquet(pion, 3);
         bouquet[2] = new Bouquet(chrysanthemum, 4);
 
-        Bouquet.allInformationByBouquet(bouquet);
+        Bouquet.allInformationByBouquet(bouquet); //выводится полная информация по букету, в том числе цена и срок стояния
 
     }
 }

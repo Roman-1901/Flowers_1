@@ -22,7 +22,7 @@ public class Bouquet {
         this.count = count;
     }
 
-    public static double priceResult(Bouquet[] array) {
+    private static double priceResult(Bouquet[] array) {  //рассчет стоимости букета
         double price = 0;
         for (int i = 0; i < array.length; i++) {
             if (array[i] == null) continue;
@@ -32,7 +32,7 @@ public class Bouquet {
         return price;
     }
 
-    public static int minLifeSpan(Bouquet[] array) {
+    private static int minLifeSpan(Bouquet[] array) {         // высчитывается наименьший срок стояния
         int min = array[0].flowerAll().getLifeSpan();
         for (int i = 1; i < array.length; i++) {
             if (array[i] == null) continue;
@@ -43,7 +43,7 @@ public class Bouquet {
         return min;
     }
 
-    public static void allInformationByBouquet(Bouquet[] array) {
+    public static void allInformationByBouquet(Bouquet[] array) { // вывод полной информации по букету
         for (int i = 0; i < array.length; i++) {
             if (array[i] == null) continue;
             System.out.println(array[i]);
